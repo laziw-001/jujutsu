@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Nosifer&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prociono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #101220;
+    font-family: "Prociono", serif;
+    color: white;
+}
+a {
+     text-decoration: none;
+  color: white;
+}
+.container {
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: #101220;
+}
+.header-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+select {
+    background-color: #101220;
+    color: white;
+    border: none;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.header-right a {
+    text-decoration: none;
+    color: white;
+}
+.header-right button {
+    width: 175px;
+    padding: 10px 15px;
+    background-color: #BFAFF2;
+    border-radius: 15px;
+}
+.card-parent {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 400px;
+    padding-bottom: 50px;
+}
+.card__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    padding: 85px 20px 10px 20px;
+    text-align: center;
+    width: 300px;
+    background-color: #232028;
+    border-radius: 32px;
+}
+.card__img {
+    position: absolute;
+    top: -250px;
+}
+
+.footer-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.footer-right {
+    display: flex;
+    gap: 20px;
+}
